@@ -271,6 +271,11 @@ ul{
         font-size: 3em;
     }
 
+    .sm-px-10{
+        padding-left: 3.5rem;
+        padding-right: 3.5rem;
+    }
+
 }
 
 /* for large screen md (768px)*/
@@ -517,3 +522,14 @@ ul{
     border-radius: 10px;
 }
 /* ------------/card area style--------------------- */
+
+
+/* ------------ready area style--------------------- */
+
+#site-main .ready-area .flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------------ready area style--------------------- */
