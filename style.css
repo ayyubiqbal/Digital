@@ -93,7 +93,7 @@ ul{
 }
 
 .bg-gradient-purple{
-    background: var(--bg--purple);
+    background: var(--bg-purple);
 }
 
 .font-poppins{
@@ -475,7 +475,7 @@ ul{
     grid-gap: 2px;
     border-radius: 20px;
     background-color: var(--text-light);
-    /* box-shadow: var(--box-shadow); */
+    box-shadow: var(--box-shadow);
 }
 
 #site-main .counting-area .count-box .grid > div{
@@ -484,3 +484,11 @@ ul{
     text-align: center;
 }
 /* ------------/counting area style--------------------- */
+
+
+/* ------------card area style--------------------- */
+#site-main .card-area .grid{
+    column-gap: 4em;
+    row-gap: 2em;
+}
+/* ------------/card area style--------------------- */
