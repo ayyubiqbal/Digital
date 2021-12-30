@@ -506,3 +506,14 @@ ul{
 }
 
 /* ------------/recent work area style--------------------- */
+
+
+/* ------------card area style--------------------- */
+#site-main .article-area .grid{
+    column-gap: 5em;
+}
+
+#site-main .article-area .card article{
+    border-radius: 10px;
+}
+/* ------------/card area style--------------------- */
