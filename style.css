@@ -492,3 +492,17 @@ ul{
     row-gap: 2em;
 }
 /* ------------/card area style--------------------- */
+
+
+/* ------------recent work area style--------------------- */
+
+#site-main .recent-work-area .images-flex .flex-item{
+    width: 360px;
+    margin-bottom: 50px;
+}
+
+#site-main .recent-work-area .images-flex .flex-item img{
+    border-radius: 10px;
+}
+
+/* ------------/recent work area style--------------------- */

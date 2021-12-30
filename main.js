@@ -8,6 +8,15 @@ window.onload = function myFunc() {
     toggle.addEventListener('click', function (event) {
         collapse.classList.toggle('active');
         // console.log(collapse);
-    }
-    );
+    });
+
+    // mansonry js
+    let grid = document.querySelector('#site-main .recent-work-area .images-flex');
+
+    let msnry = new Masonry(grid, {
+        itemSelector: '.flex-item',
+        gutter: 100,
+        fitWidth: true,
+    });
+
 }
