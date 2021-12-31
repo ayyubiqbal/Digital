@@ -20,3 +20,8 @@ window.onload = function myFunc() {
     });
 
 }
+
+//rellax js 
+var rellax = new Rellax('.rellax', {
+    center: true
+});
